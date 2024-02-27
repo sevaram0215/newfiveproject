@@ -171,23 +171,27 @@ ul :hover {
 }
 
 .bottom img {
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  
 }
 
 .bottem_upr {
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
-}
-
-.bottem_upr p {
-  line-height: 0;
-
 }
 
 .bottem_mid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.bottem_mid  div {
+margin: 15px;
 
 
 }
@@ -482,9 +486,11 @@ a {
 
  
 
-    {
+    
+      @media screen and (min-width:280px) and (max-width:480px){
+           
 
-  .nav {
+  .nav{
 
     display: flex;
     justify-content: space-between;
@@ -656,5 +662,3 @@ align-items: center;
     border-radius: 20px;
   }
 }
-   
-
