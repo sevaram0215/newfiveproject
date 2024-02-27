@@ -9,14 +9,14 @@
   padding-left: 80px;
 
 }
-a{
-  color: rgb(254, 75, 75);
  
+ul li a{
+  color: rgb(14, 40, 211);
+  font-size: 20px;
 }
-
 .options {
   margin-left: 580px;
-
+ 
 }
 
 span {
